@@ -1,0 +1,258 @@
+.gallery {
+    position: relative;
+    margin-bottom: 100px;
+
+    &__heading {
+        margin-bottom: 80px;
+    }
+
+    &__switch {
+        margin-bottom: 40px;
+    }
+
+    &__item {
+        padding: 12px 12px;
+    }
+
+    &__pictures.active {
+        display: none;
+    }
+
+    /* слайдер галлерея фото */
+    &__content {
+        position: relative;
+        margin: 0 -12px;
+
+        & .slick-track {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        & .slick-list {
+            overflow: hidden;
+        }
+
+        & .slick-arrow {
+            position: absolute;
+            bottom: -2px;
+            z-index: 5;
+            font-size: 0;
+            width: 12px;
+            height: 20px;
+        }
+
+        & .slick-prev {
+            left: 40%;
+            background: url("../../assets/images/icon_arrow_l.png") 0 0 / 100% no-repeat;
+
+            @media (max-width: 1500px) {
+                left: 37%;
+            }
+
+            @media (max-width: 1200px) {
+                left: 30%;
+            }
+
+            @media (max-width: 992px) {
+                left: 24%;
+            }
+
+            @media (max-width: 766px) {
+                left: 10%;
+            }
+
+            @media (max-width: 499px) {
+                left: 5%;
+            }
+        }
+
+        & .slick-next {
+            right: 40%;
+            background: url("../../assets/images/icon_arrow_r.png") 0 0 / 100% no-repeat;
+
+            @media (max-width: 1500px) {
+                right: 37%;
+            }
+
+            @media (max-width: 1200px) {
+                right: 30%;
+            }
+
+            @media (max-width: 992px) {
+                right: 24%;
+            }
+
+            @media (max-width: 766px) {
+                right: 10%;
+            }
+
+            @media (max-width: 499px) {
+                right: 5%;
+            }
+        }
+
+        & .slick-disabled {
+            opacity: 0.3;
+        }
+
+        & .slick-dots {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & li {
+                margin-top: 30px;
+                padding: 0px 24px;
+                list-style: none;
+
+                @media (max-width: 992px) {
+                    padding: 0 16px;
+                    ;
+                }
+
+                &.slick-active button {
+                    background-color: $color-lightning-yellow;
+                }
+            }
+
+            & button {
+                font-size: 0;
+                width: 16px;
+                height: 16px;
+                border-radius: 8px;
+                border: 1px $color-lightning-yellow solid;
+
+                @media (max-width:550px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.video {
+    position: absolute;
+    z-index: -3;
+    opacity: 0;
+
+    &.active {
+        position: relative;
+        z-index: 1;
+        opacity: 1;
+    }
+
+    &__content iframe {
+        height: 364px;
+    }
+
+    /* слайдер галлерея видео */
+    &__content {
+        position: relative;
+        margin: 0 -12px;
+
+        & .slick-track {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        & .slick-list {
+            overflow: hidden;
+        }
+
+        & .slick-arrow {
+            position: absolute;
+            bottom: -2px;
+            z-index: 5;
+            font-size: 0;
+            width: 12px;
+            height: 20px;
+        }
+
+        & .slick-prev {
+            left: 40%;
+            background: url("../../assets/images/icon_arrow_l.png") 0 0 / 100% no-repeat;
+
+            @media (max-width: 1500px) {
+                left: 37%;
+            }
+
+            @media (max-width: 1200px) {
+                left: 30%;
+            }
+
+            @media (max-width: 992px) {
+                left: 24%;
+            }
+
+            @media (max-width: 766px) {
+                left: 10%;
+            }
+
+            @media (max-width: 499px) {
+                left: 5%;
+            }
+        }
+
+        & .slick-next {
+            right: 40%;
+            background: url("../../assets/images/icon_arrow_r.png") 0 0 / 100% no-repeat;
+
+            @media (max-width: 1500px) {
+                right: 37%;
+            }
+
+            @media (max-width: 1200px) {
+                right: 30%;
+            }
+
+            @media (max-width: 992px) {
+                right: 24%;
+            }
+
+            @media (max-width: 766px) {
+                right: 10%;
+            }
+
+            @media (max-width: 499px) {
+                right: 5%;
+            }
+        }
+
+        & .slick-disabled {
+            opacity: 0.3;
+        }
+
+        & .slick-dots {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & li {
+                margin-top: 30px;
+                padding: 0px 24px;
+                list-style: none;
+
+                @media (max-width: 992px) {
+                    padding: 0 16px;
+                    ;
+                }
+
+                &.slick-active button {
+                    background-color: $color-lightning-yellow;
+                }
+            }
+
+            & button {
+                font-size: 0;
+                width: 16px;
+                height: 16px;
+                border-radius: 8px;
+                border: 1px $color-lightning-yellow solid;
+
+                @media (max-width:550px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

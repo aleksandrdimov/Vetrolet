@@ -1,0 +1,69 @@
+.buttons {
+    display: inline-flex;
+    flex-wrap: wrap;
+
+    &_banner {
+        margin-bottom: 50px;
+
+        @media (max-width: 541px) {
+            &>*:not(:last-child) {
+                margin-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 375px) {
+            margin-bottom: 35px;
+        }
+    }
+
+    &_flight {
+        @media (max-width: 599px) {
+            position: absolute;
+            bottom: 10px;
+            left: 180px;
+        }
+
+        @media (max-width: 475px) {
+            left: 80px;
+        }
+    }
+
+    &_price {
+        @media (max-width: 565px) {
+            display: inline-block;
+
+            &>*:not(:last-child) {
+                margin-bottom: 16px;
+            }
+        }
+    }
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $m-font-semi, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-radius: 26px;
+    border: 1px $color-bahama-blue solid;
+    min-width: 232px;
+    background-color: transparent;
+    color: $color-bahama-blue;
+    padding: 15px 0;
+    margin-right: 24px;
+
+    &:hover {
+        background-color: $color-bahama-blue;
+        padding: 15px 0;
+        color: $color-white;
+    }
+
+    &_footer {
+        color: $color-bahama-blue;
+        background-color: $color-white;
+        margin-bottom: 40px;
+    }
+}

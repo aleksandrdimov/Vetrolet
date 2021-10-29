@@ -1,0 +1,52 @@
+.trainers {
+    position: relative;
+    margin-bottom: 68px;
+
+    &__heading {
+        margin-bottom: 70px;
+    }
+
+    &__box {
+        @media (max-width:599px) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    &__content {
+        text-align: center;
+    }
+
+    &__picture {
+        margin-bottom: 24px;
+        padding: 0 5px;
+
+        &.hover img {
+            box-shadow: 0px 1px 1px 2px rgba(255, 192, 20, 0.4);
+        }
+
+        @media (max-width:599px) {
+            margin-bottom: 5px;
+        }
+
+        & img {
+            border-radius: 50%;
+        }
+    }
+
+    &__text {
+        font-family: $m-font-medium, sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: $color-orient;
+
+        &.hover {
+            color: $color-lightning-yellow;
+        }
+
+        @media (max-width:599px) {
+            margin-bottom: 35px;
+        }
+    }
+}

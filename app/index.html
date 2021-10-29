@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetrolet</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container wrapper flex flex_align-center flex_space-between">
+            <div class="header__logo">
+                <a href="/">
+                    <picture class="header__picture">
+                        <source srcset="assets/images/logo-mobile.png" media="(min-width: 320px) and  (max-width: 766px)">
+                        <source srcset="assets/images/logo-tablet.png" media="(min-width: 767px) and (max-width: 1200px)" >
+                        <img src="assets/images/logo.png" alt="main">
+                    </picture>
+                </a>
+            </div>
+            <div class="header__burger">
+                <span></span>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list flex ">
+                    <li class="header__nav-item">
+                        <a href="#banner" class="header__nav-link">Главная</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#fly" class="header__nav-link">Как летать?</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#question" class="header__nav-link">Вопрос-ответ</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#price" class="header__nav-link">Цены</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#gallery" class="header__nav-link">Галерея</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#contacts" class="header__nav-link">Контакты</a>
+                    </li>
+                </ul>
+                <div class="header__social">
+                    <div class="header__social-item ">
+                        <a href="https://www.vk.com/">
+                            <img src="assets/images/icon vk.png" alt="vk">
+                        </a>
+                        <a href="https://www.instagram.com/">
+                            <img src="assets/images/icon inst.png" alt="instagram">
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="banner" id="banner">
+            <div class="banner__clouds clouds">
+                <div class="clouds__top-index1 anim-items anim-no-hide">
+                    <picture>
+                        <source srcset="assets/images/cloud_top_mobile.png" media="(min-width: 320px) and  (max-width: 375px)">
+                        <source srcset="assets/images/cloud_top_tablet.png" media="(min-width: 376px) and (max-width: 767px)" >
+                        <img src="assets/images/cloud_top.png" alt="cloud">
+                    </picture>
+                </div>
+                <div class="clouds__top-index2">
+                    <img src="assets/images//cloud_top_2.png" alt="cloud">
+                </div>
+                <div class="clouds__top-index3 clouds__top-index3_left">
+                    <picture>
+                        <source srcset="assets/images/cloud_top_left_3_mobile.png" media="(min-width: 320px) and  (max-width: 375px)">
+                        <source srcset="assets/images/cloud_top_left_3_tablet.png" media="(min-width: 376px) and (max-width: 767px)" >
+                        <img src="assets/images/cloud_top_left_3.png" alt="cloud">
+                    </picture>
+                </div>
+                <div class="clouds__top-index3 clouds__top-index3_right">
+                    <picture>
+                        <source srcset="assets/images/cloud_top_right_3_mobile.png" media="(min-width: 320px) and  (max-width: 375px)">
+                        <source srcset="assets/images/cloud_top_right_3_tablet.png" media="(min-width: 376px) and (max-width: 767px)" >
+                        <img src="assets/images/cloud_top_right_3.png" alt="cloud">
+                    </picture>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="banner__container">
+                    <div class="banner__content">
+                        <h1 class="banner__title">Мы научим тебя летать</h1>
+                        <div class="banner__text">Соверши полёт в аэротрубе, <p>
+                                по ощущениям абсолютно аналогичный свободному падению во</p> время прыжка с парашютом!
+                        </div>
+                        <div class="buttons buttons_banner">
+                            <a class="button " href="#">заказать полет</a>
+                            <a class="button " href="#">купить сертификат</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner__picture">
+                    <div class="picture">
+                        <picture class="picture__submain">
+                            <source srcset="assets/images/banner-submain-mobile.png" media="(min-width: 320px) and  (max-width: 599px)">
+                            <source srcset="assets/images/banner-submain-tablet.png" media="(min-width: 600px) and (max-width: 1200px)" >
+                            <img src="assets/images/banner-submain-desktop.png" alt="main">
+                        </picture>
+                    </div>
+                    <div class="picture">
+                        <picture class="picture__main">
+                            <source srcset="assets/images/banner-main-mobile.png" media="(min-width: 320px) and  (max-width: 599px)">
+                            <source srcset="assets/images/banner-main-tablet.png" media="(min-width: 600px) and (max-width: 1200px)" >
+                            <img src="assets/images/banner-main-desktop.png" alt="main">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <div class="banner__clouds clouds clouds_bottom">
+                <div class="clouds__bottom-index1 clouds__bottom-index1_left anim-items">
+                    <picture>
+                        <source srcset="assets/images/cloud_bottom_left_mobile.png" media="(min-width: 320px) and  (max-width: 375px)">
+                        <source srcset="assets/images/cloud_bottom_left_tablet.png" media="(min-width: 376px) and (max-width: 767px)" >
+                        <img src="assets/images/cloud_bottom_left.png" alt="cloud">
+                    </picture>
+                </div>
+                <div class="clouds__bottom-index1 clouds__bottom-index1_right">
+                    <img src="assets/images/cloud_bottom_right.png" alt="cloud ">
+                </div>
+                <div class="clouds__bottom-index2 clouds__bottom-index2_left">
+                    <picture>
+                        <source srcset="assets/images/cloud_bottom_left_2_mobile.png" media="(min-width: 320px) and  (max-width: 375px)">
+                        <source srcset="assets/images/cloud_bottom_left_2_tablet.png" media="(min-width: 376px) and (max-width: 767px)" >
+                        <img src="assets/images/cloud_bottom_left_2.png" alt="cloud">
+                    </picture>
+                </div>
+                <div class="clouds__bottom-index2 clouds__bottom-index2_center">
+                    <img src="assets/images/cloud_bottom_center_2.png" alt="cloud">
+                </div>
+                <div class="clouds__bottom-index2 clouds__bottom-index2_right">
+                    <picture>
+                        <source srcset="assets/images/cloud_bottom_right_2_mobile.png" media="(min-width: 320px) and  (max-width: 375px)">
+                        <source srcset="assets/images/cloud_bottom_right_2_tablet.png" media="(min-width: 376px) and (max-width: 767px)" >
+                        <img src="assets/images/cloud_bottom_right_2.png" alt="cloud">
+                    </picture>
+                </div>
+                <div class="clouds__bottom-index3">
+                    <picture>
+                        <source srcset="assets/images/cloud_bottom_3_mobile.png" media="(min-width: 320px) and  (max-width: 375px)">
+                        <source srcset="assets/images/cloud_bottom_3_tablet.png" media="(min-width: 376px) and (max-width: 767px)" >
+                        <img src="assets/images/cloud_bottom_3.png" alt="cloud">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="advantages__small-clouds small-clouds">
+                <div class="small-clouds__anim small-clouds__anim_advantages-left anim-items">
+                    <img src="assets/images/small_cloud_left_anim.png" alt="cloud">
+                </div>
+                <div class="small-clouds__advantages-left">
+                    <img src="assets/images/small_cloud_left.png" alt="cloud">
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="advantages__container flex">
+                    <div class="advantages__column">
+                        <img src="assets/images/paragliding 1.png" alt="Property">
+                        <h4 class="advantages__title">Как с парашютом</h4>
+                        <div class="advantages__text">Только безопаснее и дешевле.
+                            <p>При прыжке с парашютом с 4000 м свободный полёт длится всего около минуты.</p>
+                        </div>
+                    </div>
+                    <div class="advantages__column">
+                        <img src="assets/images/shopper 2.png" alt="Property">
+                        <h4 class="advantages__title">Бонус</h4>
+                        <p class="advantages__text">в день рождения и на следующий день именинник получает 2 минуты
+                            полёта в подарок к основному времени.</p>
+                    </div>
+                    <div class="advantages__column">
+                        <img src="assets/images/Property 3.png" alt="Property">
+                        <h4 class="advantages__title">Безопасно</h4>
+                        <p class="advantages__text">Ваш полёт контролируют два инструктора: один снаружи,
+                            второй всегда находится рядом с вами в полётной зоне.</p>
+                    </div>
+                    <div class="advantages__column">
+                        <img src="assets/images/Property 4.png" alt="Property">
+                        <h4 class="advantages__title">Удобно</h4>
+                        <div class="advantages__text">Подготовка к полёту занимает около 30 минут.
+                            <p>Вас всему обучат и выдадут необходимую экипировку.</p>
+                        </div>
+                    </div>
+                    <div class="advantages__column">
+                        <img src="assets/images/Property 5.png" alt="Property">
+                        <h4 class="advantages__title">Для всех</h4>
+                        <div class="advantages__text">Для полёта не нужна специальная подготовка.
+                            <p>Летать могут взрослые и дети с трёх лет.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="advantages__small-clouds small-clouds">
+                <div class="small-clouds__anim small-clouds__anim_advantages-right anim-items">
+                    <img src="assets/images/small_cloud_right_anim.png" alt="cloud">
+                </div>
+                <div class="small-clouds__advantages-right">
+                    <img src="assets/images/small_cloud_right.png" alt="cloud">
+                </div>  
+            </div>
+        </section>
+
+        <section class="flight"  id="fly">
+            <div  class="wrapper">
+                <div class="flight__container">
+                    <div class="flight__heading heading">
+                        <h3 class="heading__title">Как летать?</h3>
+                        <div class="heading__svg heading__svg_flight">
+                            <img src="assets/images/How fly.svg" alt="how fly">
+                        </div>
+                    </div>
+                    <div class="flight__content flex flex_space-between">
+                        <div class="flight__picture">
+                            <img src="assets/images/flyer.png" alt="">
+                            <div class="buttons buttons_flight">
+                                <a href="#" class="button">Заказать полет</a>
+                            </div>
+                        </div>
+                        <div class="flight__slider slider ">
+                            <div class="slider__content">
+                                <h4 class="slider__subtitle">Как это работает?</h4>
+                                <div class="slider__text">Аэротруба - сложное техническое устройство, создающее мощнейший
+                                    воздушный поток высокой скорости.
+                                    <p>Технология аэротрубы позволяет летать детям с трёх лет и взрослым до 130 кг.</p>
+                                    Скорость потока регулирует оператор, а в полётной зоне с вами находится опытный
+                                    инструктор, который работает индивидуально с каждым клиентом.
+                                    <p>Аэротруба "Ветролёт" разработана ведущим производителем аэротруб в мире и отвечает
+                                        самым высоким требованиям безопасности.</p>
+                                </div>
+                            </div>
+                            <div class="slider__content">
+                                <h4 class="slider__subtitle">Как происходит полёт?</h4>
+                                <div class="slider__text">
+                                    <b>✓</b> вы бронируете полёт (+79030543000)
+                                    <p><b>✓</b> приходите к назначенному времени в удобной одежде и обуви на шнурках</p>
+                                    <b>✓</b> проходите предполётный инструктаж
+                                    <p><b>✓</b> экипируетесь (комбинезон, шлем, беруши, перчатки)</p>
+                                    <b>✓</b> летаете под контролем опытного инструктора на скорости до 220 км/ч
+                                    <p><b>✓</b> получаете лётную грамоту после успешного полёта</p>
+                                </div>
+                            </div>
+                            <div class="slider__content">
+                                <h4 class="slider__subtitle">Что нужно делать?</h4>
+                                <div class="slider__text">
+                                    Ваша задача - держать позу, которую мы потренируем перед полётом в аэротрубе.
+                                    <p>Ничего сложного нет: вы летаете, инструктор контролирует все ваши перемещения.</p>
+                                    Но! Будьте готовы к тому, что ваши земные рефлексы могут вам немного мешать, поэтому мы
+                                    рекомендуем летать от 6 минут, чтобы вы успели всё осознать и научились выполнять пару
+                                    интересных элементов.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flight__small-clouds small-clouds">
+                <div class="small-clouds__anim small-clouds__anim_flight-first anim-items">
+                    <img src="assets/images/small_cloud_left_fly_anim_small.png" alt="cloud">
+                </div>
+                <div class="small-clouds__anim small-clouds__anim_flight-second anim-items">
+                    <img src="assets/images/small_cloud_left_fly_anim_big.png" alt="cloud">
+                </div>
+                <div class="small-clouds__flight">
+                    <img src="assets/images/small_cloud_left_fly.png" alt="cloud">
+                </div>
+            </div>
+        </section>
+
+        <section class="question" id="question">
+            <div class="wrapper">
+                <div class="question__container">
+                    <div class="question__heading heading">
+                        <h3 class="heading__title">Вопрос-ответ</h3>
+                        <div class="heading__svg heading__svg_question">
+                            <img src="assets/images/question and answer.svg" alt="question and answer">
+                        </div>
+                    </div>
+                    <div class="question__answer  flex">
+                        <div class="question__column ">
+                            <div class="question__list anim-items">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Как полетать бесплатно?
+                                    <img class="question__subtitle-prize" src="assets/images/icon prize.png" alt="prize">
+                                </h4>
+                                <div class="question__explanation anim-items flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question__list anim-items">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Есть ли бонусы для именинников?
+                                </h4>
+                                <div class="question__explanation flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question__list">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Есть ли скидки компаниям?
+                                </h4>
+                                <div class="question__explanation flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question__list">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Я парашютист. Какие тарифы для меня?
+                                </h4>
+                                <div class="question__explanation flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question__list">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Что делать если мне подарили сертификат на полет?
+                                </h4>
+                                <div class="question__explanation flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question__list">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Как купить сертификат на полет?
+                                </h4>
+                                <div class="question__explanation flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question__list">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Что делать, если у сертификата истёк срок действия?
+                                </h4>
+                                <div class="question__explanation flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question__list">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Как можно оплатить полёт?
+                                </h4>
+                                <div class="question__explanation flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question__column">
+                            <div class="question__list">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Я не устану, если буду летать 10 минут?
+                                </h4>
+                                <div class="question__explanation flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question__list">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Сколько времени занимает весь процесс?
+                                </h4>
+                                <div class="question__explanation flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question__list">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Какая высота аэротрубы?
+                                </h4>
+                                <div class="question__explanation flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question__list">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Это страшно?
+                                </h4>
+                                <div class="question__explanation flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question__list">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Я вешу 120 кг. Меня аэротруба поднимет?
+                                </h4>
+                                <div class="question__explanation flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question__list">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Как записаться на полёт?
+                                </h4>
+                                <div class="question__explanation flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question__list">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Как к вам добраться?
+                                </h4>
+                                <div class="question__explanation flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question__list">
+                                <h4 class="question__subtitle flex">
+                                    <img class="question__subtitle-arrow" src="assets/images/icon arrow.png" alt="arrow">
+                                    Сколько человек может летать одновременно ?
+                                </h4>
+                                <div class="question__explanation flex flex_space-between">
+                                    <div class="question__explanation-arrow"></div>
+                                    <div class="question__explanation-text">
+                                        Для активации просроченного сертификата вам необходимо приобрести количество минут,
+                                        равное номиналу сертификата.
+                                        <p>Например, сертификат на 4 минуты активируется покупкой 4 минут полёта - итого
+                                            получается 8 минут.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="question__small-clouds small-clouds">
+                <div class="small-clouds__anim small-clouds__anim_question anim-items">
+                    <img src="assets/images/small_cloud_right_question_anim.png" alt="cloud">
+                </div>
+                <div class="small-clouds__question">
+                    <img src="assets/images/small_cloud_right_question.png" alt="cloud">
+                </div>
+            </div>
+        </section>
+
+        <section class="price wrapper" id="price">
+            <div class="price__small-clouds small-clouds">
+                <div class="small-clouds__price">
+                    <img src="assets/images/small_cloud_left_price.png" alt="cloud">
+                </div>
+            </div>
+            <div class="price__container">
+                <div class="price__heading heading heading_bottom">
+                    <h3 class="heading__title">Сколько стоит?</h3>
+                    <div class="heading__svg heading__svg_price">
+                        <img src="assets/images/price.svg" alt="price">
+                    </div>
+                </div>
+                <div class="price__box flex flex_space-between">
+                    <div class="price__column price__picture">
+                        <div class="price__bg">
+                            <img src="assets/images/price picture bg.png" alt="wind tunnel">
+                            <div class="price__flier-top">
+                                <img src="assets/images/price picture flier top.png" alt="flier top">
+                            </div>
+                            <div class="price__flier-bottom">
+                                <img src="assets/images/price picture flier bottom.png" alt="flier bottom">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price__column price__column_right price_blue" id="price_blue">
+                        <div class="price__container category">
+                            <div class="flex flex_content-center">
+                                <div class="category__item">
+                                    <a class="category__button category__yellow" href="#price">Детский</a>
+                                    <a class="category__button category__button_blue" href="#price">Взрослый</a>
+                                </div>
+                            </div>
+                            <div class="price__content">
+                                <p class="price__content-text">Стоимость полета зависит от количества выбранных минут:
+                                    чем больше минут, тем больше скидка</p>
+                                <p class="price__content-number">Цена за минуту полёта: 350 р</p>
+                            </div>
+                            <div class="price__discount">
+                                <p class="price__discount-text">Скидка 30%</p>
+                                <p class="price__discount-number">3 500</p>
+                            </div>
+                            <div class="price__line">
+                                <div class="price__line-icon">
+                                    <img src="assets/images/price ellipse.png" alt="price ellipse">
+                                </div>
+                            </div>
+                            <div class="price__list flex flex_space-between">
+                                <p class="price__list-minutes">20 минут</p>
+                                <p class="price__list-minutes">10 минут</p>
+                                <p class="price__list-minutes">6 минуты</p>
+                                <p class="price__list-minutes">4 минуты</p>
+                                <p class="price__list-minutes">2 минуты</p>
+                            </div>
+                            <div class="price__buttons">
+                                <div class="buttons buttons_price">
+                                    <a class="button " href="#">заказать полет</a>
+                                    <a class="button " href="#">купить сертификат</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price__column price__column_right price_yellow" id="price_yellow">
+                        <div class="price__container category">
+                            <div class="flex flex_content-center">
+                                <div class="category__item">
+                                    <a class="category__button category__button_yellow " href="#price">Детский</a>
+                                    <a class="category__button category__blue" href="#price">Взрослый</a>
+                                </div>
+                            </div>
+                            <div class="price__content">
+                                <p class="price__content-text">Стоимость полета зависит от количества выбранных минут:
+                                    чем больше минут, тем больше скидка</p>
+                                <p class="price__content-number">Цена за минуту полёта: 180 р</p>
+                            </div>
+                            <div class="price__discount price__discount_yellow">
+                                <p class="price__discount-text">Скидка 30%</p>
+                                <p class="price__discount-number">3 500</p>
+                            </div>
+                            <div class="price__line price__line_yellow">
+                                <div class="price__line-icon">
+                                    <img src="assets/images/price_ellipse_yellow.png" alt="price ellipse">
+                                </div>
+                            </div>
+                            <div class="price__list flex flex_space-between">
+                                <p class="price__list-minutes price__list-minutes_yellow">20 минут</p>
+                                <p class="price__list-minutes price__list-minutes_yellow">10 минут</p>
+                                <p class="price__list-minutes price__list-minutes_yellow">6 минуты</p>
+                                <p class="price__list-minutes price__list-minutes_yellow">4 минуты</p>
+                                <p class="price__list-minutes price__list-minutes_yellow">2 минуты</p>
+                            </div>
+                            <div class="price__buttons">
+                                <div class="buttons buttons_price">
+                                    <a class="button " href="#">заказать полет</a>
+                                    <a class="button " href="#">купить сертификат</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="certificate">
+            <div class="certificate__small-clouds small-clouds">
+                <div class="small-clouds__anim small-clouds__anim_certificate-first anim-items">
+                    <img src="assets/images/small_cloud_right_certificate_anim_first.png" alt="cloud">
+                </div>
+                <div class="small-clouds__certificate">
+                    <img src="assets/images/small_cloud_right_certificate.png" alt="cloud">
+                </div>
+                <div class="small-clouds__anim small-clouds__anim_certificate-second anim-items">
+                    <img src="assets/images/small_cloud_right_certificate_anim_second.png" alt="cloud">
+                </div>
+                <div class="small-clouds__anim small-clouds__anim_certificate-third anim-items">
+                    <img src="assets/images/small_cloud_right_certificate_anim_third.png" alt="cloud">
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="certificate__container">
+                    <div class="certificate__svg">
+                        <img src="assets/images/лечу в трубу.svg" alt="#лечу в трубу">
+                    </div>
+                    <div class="certificate__box flex flex_space-between">
+                        <div class="certificate__picture ">
+                            <img src="assets/images/certificate.png" alt="certificate">
+                        </div>
+                        <div class="certificate__content ">
+                            <h3 class="certificate__title">Подарочный сертификат</h3>
+                            <div class="certificate__item">
+                                <p class="certificate__text">Всегда в наличии подарочные сертификаты на полёт в аэротрубе
+                                    "Ветролёт".</p>
+                                <p class="certificate__text">Это необычный, интересный и незабываемый подарок для детей и
+                                    взрослых на день рождения и другие праздники.</p>
+                                <p class="certificate__text">Но мы советуем не искать повод, а уже сейчас порадовать близких
+                                    яркими эмоциями от полёта!</p>
+                                <p class="certificate__text">Заказывайте и оплачивайте сертификат прямо на сайте! После
+                                    оплаты мы сразу вышлем электронный вариант на указанную почту.
+                                    Его можно распечатать или просто переслать тому, кому вы хотите его подарить.</p>
+                                <p class="certificate__text">Для того, чтоб воспользоваться сертификатом, нужно позвонить по
+                                    указанным телефонам и забронировать удобное время.</p>
+                            </div>
+                            <div class="certificate__buttons">
+                                <div class="buttons">
+                                    <a class="button " href="#">купить сертификат</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trainers">
+            <div class="trainers__small-clouds small-clouds">
+                <div class="small-clouds__anim small-clouds__anim_trainers anim-items">
+                    <img src="assets/images/small_cloud_left_trainers_anim.png" alt="cloud">
+                </div>
+                <div class="small-clouds__trainers">
+                    <img src="assets/images/small_cloud_left_trainers.png" alt="cloud">
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="trainers__container">
+                    <div class="trainers__heading heading  ">
+                        <h3 class="heading__title">Наши тренеры</h3>
+                        <div class="heading__svg heading__svg_trainers">
+                            <img src="assets/images/trainers.svg" alt="trainers">
+                        </div>
+                    </div>
+                    <div class="trainers__box flex flex_space-between">
+                        <div class="trainers__content">
+                            <div class="trainers__picture">
+                                <img src="assets/images/trainer1.png" class="pic" alt="trainer">
+                            </div>
+                            <p class="trainers__text">Игорь</p>
+                        </div>
+                        <div class="trainers__content">
+                            <div class="trainers__picture">
+                                <img src="assets/images/trainer2.png" alt="trainer">
+                            </div>
+                            <p class="trainers__text">Айрат</p>
+                        </div>
+                        <div class="trainers__content">
+                            <div class="trainers__picture">
+                                <img src="assets/images/trainer3.png" alt="trainer">
+                            </div>
+                            <p class="trainers__text">Ильнар</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <div class="gallery__container">
+                <div class="gallery__heading heading  ">
+                    <h3 class="heading__title">Галерея</h3>
+                    <div class="heading__svg heading__svg_gallery">
+                        <img src="assets/images/gallery.svg" alt="gallery svg">
+                    </div>
+                </div>
+                <div class="gallery__pictures">
+                    <div class="gallery__switch flex flex_content-center">
+                        <div class="category__item">
+                            <a class="category__button category__button_blue" href="#gallery">Фото</a>
+                            <a class="category__button category__button_video" href="#gallery">Видео</a>
+                        </div>
+                    </div>
+                    <div class="gallery__content">
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery1.png" alt="gallery">
+                        </div>
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery2.png" alt="gallery">
+                        </div> 
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery3.png" alt="gallery">
+                        </div> 
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery4.png" alt="gallery">
+                        </div> 
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery5.png" alt="gallery">
+                        </div> 
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery6.png" alt="gallery">
+                        </div> 
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery7.png" alt="gallery">
+                        </div>
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery8.png" alt="gallery">
+                        </div> 
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery9.png" alt="gallery">
+                        </div> 
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery10.png" alt="gallery">
+                        </div> 
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery11.png" alt="gallery">
+                        </div>
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery12.png" alt="gallery">
+                        </div>
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery6.png" alt="gallery">
+                        </div> 
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery7.png" alt="gallery">
+                        </div>
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery8.png" alt="gallery">
+                        </div> 
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery9.png" alt="gallery">
+                        </div> 
+                        <div class="gallery__item">
+                            <img data-lazy="assets/images/gallery10.png" alt="gallery">
+                        </div> 
+                    </div>
+                </div>
+                <div class="gallery__video video">
+                    <div class="gallery__switch flex flex_content-center">
+                        <div class="category__item">
+                            <a class="category__button category__button_photo" href="#gallery">Фото</a>
+                            <a class="category__button category__button_blue" href="#gallery">Видео</a>
+                        </div>
+                    </div>
+                    <div class="video__content">
+                        <video poster="assets/images/video_poster.png" preload="none" class="video__item">
+                            <source src="https://www.youtube.com/watch?v=0-C0lCPFTj8&t=7014s">
+                        </video>
+                        <video poster="assets/images/video_poster.png" preload="none" class="video__item">
+                            <source src="https://www.youtube.com/watch?v=0-C0lCPFTj8&t=7014s">
+                        </video>
+                        <iframe controls src="https://www.youtube.com/embed/CjRas1yOWvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <video poster="assets/images/video_poster.png" preload="none" class="video__item">
+                            <source src="https://www.youtube.com/watch?v=0-C0lCPFTj8&t=7014s">
+                        </video>
+                        <video poster="assets/images/video_poster.png" preload="none" class="video__item">
+                            <source src="https://www.youtube.com/watch?v=0-C0lCPFTj8&t=7014s">
+                        </video>
+                        <video poster="assets/images/video_poster.png" preload="none" class="video__item">
+                            <source src="https://www.youtube.com/watch?v=0-C0lCPFTj8&t=7014s">
+                        </video>
+                        <video poster="assets/images/video_poster.png" preload="none" class="video__item">
+                            <source src="https://www.youtube.com/watch?v=0-C0lCPFTj8&t=7014s">
+                        </video>
+                        <video poster="assets/images/video_poster.png" preload="none" class="video__item">
+                            <source src="https://www.youtube.com/watch?v=0-C0lCPFTj8&t=7014s">
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery__small-clouds small-clouds">
+                <div class="small-clouds__gallery_left">
+                    <img src="assets/images/small_cloud_left_gallery.png" alt="cloud">
+                </div>
+                <div class="small-clouds__gallery_right">
+                    <img src="assets/images/small_cloud_right_gallery.png" alt="cloud">
+                </div>
+                <div class="small-clouds__anim small-clouds__anim_gallery anim-items">
+                    <img src="assets/images/small_cloud_right_gallery_anim.png" alt="cloud">
+                </div>         
+            </div>
+        </section>
+
+        <section class="rent">
+            <div class="rent__heading heading  ">
+                <h3 class="heading__title">Ветролёт летит к вам!</h3>
+                <div class="heading__svg heading__svg_rent">
+                    <img src="assets/images/rent.svg" alt="rent svg">
+                </div>
+            </div>
+            <div class="rent__container wrapper flex flex_space-between">
+                <div class="rent__column-left">
+                    <div class="rent__picture">
+                        <img src="assets/images/rent left.png" alt="rent">
+                    </div>
+                </div>
+                <div class="rent__column-right">
+                    <h4 class="rent__title">Аренда аэротрубы с выездом на выше мероприятие!</h4>
+                    <div class="rent__content">
+                        <h5 class="rent__content-subtitle">Что входит в аренду:</h5>
+                        <p class="rent__content-text">- аэродинамический комплекс</p>
+                        <p class="rent__content-text">- комплект снаряжения (шлемы, комбинезоны).</p>
+                    </div>
+                    <div class="rent__content">
+                        <h5 class="rent__content-subtitle">На сколько можно арендовать:</h5>
+                        <p class="rent__content-text">- От одного дня.</p>
+                    </div>
+                    <div class="rent__content">
+                        <h5 class="rent__content-subtitle">Где:</h5>
+                        <p class="rent__content-text">- Данная услуга действительна на территории РФ.</p>
+                    </div>
+                    <div class="rent__content">
+                        <h5 class="rent__content-subtitle">Что необходимо для аренды:</h5>
+                        <p class="rent__content-text">- Минимум за 3 месяца до мероприятия оформить заявку на аренду,
+                            прислав техническое задание на почту vetroletcom@yandex.ru.
+                        </p>
+                    </div>
+                    <div class="rent__content">
+                        <h5 class="rent__content-subtitle">Сколько стоит:</h5>
+                        <p class="rent__content-text">- Стоимость аренды зависит от сложности мероприятия, удаленности
+                            места проведения мероприятия.
+                            Минимальная стоимость аренды - 600 000 рублей.
+                        </p>
+                    </div>
+                    <div class="rent__buttons">
+                        <div class="buttons">
+                            <a class="button" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rent__small-clouds small-clouds">
+                <div class="small-clouds__rent">
+                    <img src="assets/images/small_cloud_right_rent.png" alt="cloud">
+                </div>        
+            </div>
+        </section>
+
+        <section class="contacts">
+            <div>
+                <img src="assets/images/contact image bg.png" class="contacts__bg-image" alt="contacts bg">
+            </div>
+            <div class="contacts__block">
+                <div class="contacts__heading heading  ">
+                    <h3 class="heading__title heading__title_white" id="contacts">Контакты</h3>
+                    <!-- <div class="heading__svg heading__svg_contacts">
+                        <img src="assets/images/contacts svg.svg" alt="contacts svg">
+                    </div> -->
+                </div>
+            </div> 
+        </section>
+
+        <section class="buy">
+            <div class="buy__container">
+                <div class="buy__exit">
+                    <img src="assets/images/icon_exit.png" alt="exit">
+                </div>
+                <h2 class="buy__title">Заказ сертификата на полет в Аэротрубе</h2>
+                <h4 class="buy__subtitle">Срок действия сертификата – 3 месяца со дня покупки.</h4>
+                <form action="" class="buy__form form">
+                    <div class="form__colunm">
+                        <div class="form__content">
+                            <p class="form__subtitle"></p>
+                            <div class="form__item">
+                                <div class="form__arrow">
+                                    <img src="assets/images/icon_arrow_blue.png" alt="arrow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__colunm"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container wrapper flex flex_space-between">
+            <div class="footer__contacts">
+                <div class="footer__contacts-item footer__contacts-item_first">
+                    <h5 class="footer__contacts-title">Наш адрес:</h5>
+                    <p class="footer__contacts-text">Казань, Зорге 11А, парковка ТЦ</p>
+                    <p class="footer__contacts-text">Максидом Аэротруба "Ветролёт"</p>
+                </div>
+                <div class="footer__contacts-item">
+                    <h5 class="footer__contacts-title">График работы:</h5>
+                    <p class="footer__contacts-text">ежедневно</p>
+                    <p class="footer__contacts-text">12:00 - 21:00</p>
+                </div>
+                <div class="footer__contacts-item">
+                    <h5 class="footer__contacts-title">Телефон:</h5>
+                    <p class="footer__contacts-text">+7 903 054 30 00</p>
+                    <p class="footer__contacts-text"> Всегда на связи!</p>
+                    <div class="footer__contacts-social flex flex_space-between">
+                        <a href="">
+                            <img src="assets/images/icon vk white.png" alt="vk">
+                        </a>
+                        <a href="">
+                            <img src="assets/images/icon inst white.png" alt="instagram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__content">
+                <h4 class="footer__content-title">Остались вопросы — напиши!</h4>
+                <form action="#" class="footer__form">
+                    <div class="footer__form-item">
+                        <input type="text" name="Username" placeholder="Введите Имя">
+                    </div>
+                    <div class="footer__form-item">
+                        <input type="email" name="Useremail" placeholder="Введите Email">
+                    </div>
+                    <div class="footer__form-item">
+                        <textarea name="Question" cols="30" rows="10" placeholder="Введите Ваш вопрос"></textarea>
+                    </div>
+                </form>
+                <div class="flex flex_content-center">
+                    <div class="buttons">
+                        <a class="button button_footer" href="#">Отправить</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__map">
+                <img src="assets/images/map.png" alt="map">
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
